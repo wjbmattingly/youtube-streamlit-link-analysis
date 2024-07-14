@@ -1,16 +1,16 @@
 project:
-  name: Project
-  repo: Repo
+  name: Stramlit Network Analysis App
+  repo: youtube-streamlit-link-analysis
   level: Intermediate
-  long_description: LongDescription
+  long_description: This is a YouTube video on a Streamlit component called st-link-analysis. It allows you to build good quality network analysis applications in Streamlit very easily.
   short_description: ShortDescription
   video:
     video_title: Title
-    video_url: https://www.youtube.com/watch?v=gDVbXEKiNmE
-    image_url: https://img.youtube.com/vi/gDVbXEKiNmE/maxresdefault.jpg
-    video_date: Date
+    video_url: https://youtu.be/s86jz9qVeWA
+    image_url: https://img.youtube.com/vi/s86jz9qVeWA/maxresdefault.jpg
+    video_date: 15 July 2024
   authors:
   - name: William J.B. Mattingly
 dependencies:
   python: '>=3.10'
-  packages: []
+  packages: [streamlit, st-link-analysis]

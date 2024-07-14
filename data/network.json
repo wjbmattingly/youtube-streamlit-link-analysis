@@ -1,0 +1,26 @@
+{
+    "nodes": [
+        {"data": {"id": 1, "label": "PERSON", "name": "Bill Gates"}},
+        {"data": {"id": 2, "label": "COMPANY", "name": "Microsoft"}},
+        {"data": {"id": 3, "label": "PERSON", "name": "Satya Nadella"}},
+        {"data": {"id": 4, "label": "PERSON", "name": "Steve Ballmer"}},
+        {"data": {"id": 5, "label": "COMPANY", "name": "Apple"}},
+        {"data": {"id": 6, "label": "PERSON", "name": "Steve Jobs"}},
+        {"data": {"id": 7, "label": "PERSON", "name": "Tim Cook"}},
+        {"data": {"id": 8, "label": "COMPANY", "name": "Google"}},
+        {"data": {"id": 9, "label": "PERSON", "name": "Larry Page"}},
+        {"data": {"id": 10, "label": "PERSON", "name": "Sundar Pichai"}}
+    ],
+    "edges": [
+        {"data": {"id": 20, "label": "FOUNDER", "source": 1, "target": 2}},
+        {"data": {"id": 21, "label": "CEO", "source": 3, "target": 2}},
+        {"data": {"id": 22, "label": "EMPLOYEE", "source": 4, "target": 2}},
+        {"data": {"id": 23, "label": "FOUNDER", "source": 6, "target": 5}},
+        {"data": {"id": 24, "label": "CEO", "source": 7, "target": 5}},
+        {"data": {"id": 25, "label": "FOUNDER", "source": 9, "target": 8}},
+        {"data": {"id": 26, "label": "CEO", "source": 10, "target": 8}},
+        {"data": {"id": 27, "label": "EMPLOYEE", "source": 6, "target": 5}},
+        {"data": {"id": 28, "label": "EMPLOYEE", "source": 9, "target": 8}},
+        {"data": {"id": 29, "label": "PARTNER", "source": 5, "target": 8}}
+    ]
+}
